@@ -1,0 +1,264 @@
+body {
+	font-size: 16px;
+	color: #000;
+	background-color: #333;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#logo-img {
+	background: url('/image/escort-tent2.png') no-repeat;
+	width: 150px;
+	height: 90px;
+}
+
+#chek {
+    background-color: #6d4dc8;
+}
+.mx-m {
+ 	color: rgb(254 215 170);
+    margin-left: 10px;
+ }
+
+ .mywhatsappB a:link{
+    text-decoration-line: none;
+ }
+
+.wrapper {
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.verified {
+    z-index: 7;
+    left: 20px;
+    width: 90px;
+    height: 30px;
+    font-size: 18px;
+    position: absolute;
+    background: linear-gradient(180deg,#0480dc 0,#094c9e 50%,#0480dc 100%);
+    color: #fff;
+    text-align: center;
+ /* transform: rotate(45deg);*/
+    padding-top: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.profileDeclared {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.rm-gallery{
+    max-width: 1200px;
+    position: relative;
+}
+
+.carousel img{
+    height: 370px;
+    object-fit: ;
+    margin-left: 10px;
+    width: calc(100% / 3);
+} 
+
+/*.onlines {
+    color: #1fdeb4;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: -8px;
+    margin-bottom: -8px;
+ }*/
+ 
+.myposi{
+    margin-top: 15px;
+    background: url(/image/pattern.jpg) repeat;
+}
+
+.profile-dt {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #5d544c;
+    border-bottom: 2px solid #d3e251;
+    padding: 10px 10px;
+}
+
+.tablet-fix{
+    overflow: hidden!important;
+    padding: 10px;
+}
+
+.split7 {
+    width: 50%;
+    float: left;
+    margin: 0;
+    color: #fff;
+    font-family: roboto,sans-serif;
+    font-size: 1.2em;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 46px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper i:first-child{
+    left: -23px;
+    display: none;
+}
+.wrapper i:last-child{
+    right: -23px;
+}
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img:first-child{
+  margin-left: 0px;
+}
+
+.mprofilefull {
+    margin-top: 10px;
+    background: url(/image/pattern.jpg) repeat;
+}
+.konconer {
+    border-radius: 4px;
+    border: 1px solid #5d544c;
+    /* background: url(/public/images/main/common/pattern.jpg) repeat; */
+}
+
+.header {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #5d544c;
+    border-bottom: 2px solid #d3e251;
+    padding: 10px 10px;
+}
+
+.content {
+    padding: 10px;
+}
+.about-details {
+    color: #de431f!important;
+    font-size: 30px!important;
+}
+.Bwebfont {
+    font-family: leaguegothic-regular-cyr;
+    font-weight: 400!important;
+}
+.btext {
+    color: #fff;
+}
+
+#FullImageView{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    text-align: center;
+    z-index: 100;
+}
+
+#FullImage {
+    padding: 24px;
+    max-width: 98%;
+    max-height: 98%;
+}
+
+#CloseButton {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+#footer {
+    margin-top: 40px;
+    position: relative;
+    padding: 30px; 
+}
+.footerMenusBox {
+    background-color: #35302c;
+    text-align: initial;
+}
+.inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #e6e6e6;
+}
+
+
+@media only screen and (max-width: 894.98px) {
+    .carousel img{
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 802.98px) {
+    .carousel img{
+        height: 340px;
+        object-fit: contain;
+        margin-left: 10px;
+        width: calc(100% / 2);
+   }
+}
+
+
+@media (min-width: 470px) and (max-width: 650.98px) {
+    .carousel img{
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (max-width: 655.98px) {
+    #logo-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 469.98px) {
+    .carousel img{
+        height: 340px;
+        object-fit: contain;
+        margin-left: px;
+        width: calc(100% );
+    }
+}
+
+@media only screen and (max-width: 458.98px) {
+    .mywhatsappB {
+        margin-left: ;
+    }
+}
